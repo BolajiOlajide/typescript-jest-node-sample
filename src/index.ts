@@ -1,5 +1,9 @@
 class Game {
-  public score = 0;
+  private _score: number = 0;
+
+  score(): number {
+    return this._score;
+  }
 };
 
 console.log('Bolaji');
